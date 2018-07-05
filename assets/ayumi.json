@@ -1,0 +1,18 @@
+{
+    "name": "吉田步美",
+    "image": "ayumi",
+    "description": "  日本动漫《名侦探柯南》中人物。帝丹小学一年级B班学生，少年侦探团成员。江户川柯南的同班同学，喜欢柯南。天真活泼，单纯开朗，充满爱心和责任感，是个可爱的女孩。",
+    "relations": [{
+        "image": "conan",
+        "relation": "同伴"
+    }, {
+        "image": "genta",
+        "relation": "同伴"
+    }, {
+        "image": "mitsuhik",
+        "relation": "同伴"
+    }, {
+        "image": "ai",
+        "relation": "同伴"
+    }]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res/com.example.conan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.example.conan.util.RoundImageView
+        android:id="@+id/imageview_grid_rela_item"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        pv:border_thickness="4dp"
+        pv:border_inside_color="#481003"
+        pv:border_outside_color="#A94A0C" />
+
+    <TextView
+        android:id="@+id/textview_grid_rela_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="关系"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#8FFFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.conan.SelectActivity"
+    android:background="@drawable/brick"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/image_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause" />
+
+        <ImageView
+            android:id="@+id/image_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/next" />
+
+        <TextView
+            android:id="@+id/textView_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:maxEms="11"
+            android:singleLine="true"
+            android:text="ZARD - 運命のルーレット廻して--播放中"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <GridView
+            android:id="@+id/gridView_family"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"
+            android:paddingLeft="60dp"
+            android:scrollbars="none" >
+        </GridView>
+
+    </LinearLayout>
+</LinearLayout>
